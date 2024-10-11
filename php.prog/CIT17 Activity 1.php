@@ -1,15 +1,16 @@
 <?php
+//Justine Gail Valdez 186710705
 //initialize a variable to 2
-$i = 2;
+$a = 2;
 
 // Start the while loop, which will run as long as $i is less than or equal to 20
-while ($i <= 20){
+while ($a <= 20){
 
    // Print the current value of $i (even number)
-    echo $i. " ";
+    echo $a. " ";
    
     // Increment $i by 2 in each loop interation to ensure only even numbers are printed
-    $i += 2;
+    $a += 2;
 }
 
 
