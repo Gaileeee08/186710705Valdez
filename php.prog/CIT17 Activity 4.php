@@ -16,3 +16,5 @@ for ($i = 1; $i <= 10; $i++) {
     // Output the current number
     echo $i . " "; // Print the number followed by a space
 }
+
+?>

@@ -1,5 +1,6 @@
 <?php
-//Justine Gail Valdez 186710705
+//Justine Gail Valdez 186710705, Activity 1: Number Counter
+
 //initialize a variable to 2
 $a = 2;
 
