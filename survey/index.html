@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="survey-container">
+    <h1 id="title">Satisfaction Survey</h1>
+
+    <p id="description">Please Help CleanSpree Service improve by taking this short survey. We value your feedback!</p>
+
+
+    <div class="contact-info">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="address">Address: </label>
+        <input type="text" id="address" name="address">
+
+
+    </div>
+
+    <div class="question-section">
+        <p>Please, Rate Your Experience</p>
+
+    <div class="question rating-labels">
+        <span></span>
+        <span>Not Very</span>
+        <span>Neutral</span>
+        <span>Very</span>
+    </div>
+
+        <div class="question">
+            <label> How satified are you with the work performed?</label>
+            <div class="rating-options">
+                <input type="radio" name="satisfaction" value="1"> 1
+                <input type="radio" name="satisfaction" value="2"> 2
+                <input type="radio" name="satisfaction" value="3"> 3
+                <input type="radio" name="satisfaction" value="4"> 4
+                <input type="radio" name="satisfaction" value="5"> 5
+            </div>
+        </div>
+
+        <div class="question">
+            <label>How likely are you to use our services again?</label>
+            <div class="rating-options">
+                <input type="radio" name="reuse" value="1"> 1
+                <input type="radio" name="reuse" value="2"> 2
+                <input type="radio" name="reuse" value="3"> 3
+                <input type="radio" name="reuse" value="4"> 4
+                <input type="radio" name="reuse" value="5"> 5
+        </div>
+    </div>
+
+         <div class="question">
+            <label>How likely are you to recommend our services to friends and family?</label>
+            <div class="rating-options">
+                <input type="radio" name="recommend" value="1"> 1
+                <input type="radio" name="recommend" value="2"> 2
+                <input type="radio" name="recommend" value="3"> 3
+                <input type="radio" name="recommend" value="4"> 4
+                <input type="radio" name="recommend" value="5"> 5
+         </div>
+    </div>
+          
+            <div class="question">
+            <label>How well did we answer your product/experience questions?</label>
+            <div class="rating-options">
+                <input type="radio" name="answers" value="1"> 1
+                <input type="radio" name="answers" value="2"> 2
+                <input type="radio" name="answers" value="3"> 3
+                <input type="radio" name="answers" value="4"> 4
+                <input type="radio" name="answers" value="5"> 5  
+        </div>
+    </div>
+
+            <div class="question">
+            <label>How satisfied are you with the amount of time it took to resolve your issue?</label>
+            <div class="rating-options">
+            
+                <input type="radio" name="resolutionTime" value="1"> 1
+                <input type="radio" name="resolutionTime" value="2"> 2
+                <input type="radio" name="resolutionTime" value="3"> 3
+                <input type="radio" name="resolutionTime" value="4"> 4
+                <input type="radio" name="resolutionTime" value="5"> 5
+            </div>
+        </div>
+    </div>
+
+    <div class="comment-section">
+        <label for="comments">Additional Comments:</label>
+        <textarea id="comments" name="comments"></textarea>
+    </div>
+
+
+    <div class="footer">
+        <p>If you have questions or comments about the work performed, please feel free to reach out to us. We would love to hear from you!</p>
+    </div>
+</div>
+</body>
+</html> 
