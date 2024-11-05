@@ -2,10 +2,84 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TechScript Documentation</title>
+    <link rel="stylesheet" href="tech.css">
 </head>
 <body>
-    
+    <header>
+        <h1>TechScript Documentation</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#setup">Setup</a></li>
+                <li><a href="#syntax">Syntax</a></li>
+                <li><a href="#functions">Functions</a></li>
+                <li><a href="#examples">Examples</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content">
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>TechScript is a powerful, easy-to-learn programming language designed for both beginners and experienced developers. It focuses on simplicity and efficiency, making it ideal for rapid development.</p>
+        </section>
+
+        <section id="setup">
+            <h2>Setup</h2>
+            <p>Follow these steps to set up TechScript on your system:</p>
+            <ol>
+                <li>Download the TechScript installer from the official website.</li>
+                <li>Run the installer and follow the on-screen instructions.</li>
+                <li>Set up environment variables as necessary.</li>
+                <li>Verify the installation by running <code>techscript --version</code> in your terminal.</li>
+            </ol>
+        </section>
+
+        <section id="syntax">
+            <h2>Syntax</h2>
+            <p>TechScript syntax is designed to be straightforward and easy to understand. Here are some key syntax rules:</p>
+            <ul>
+                <li>Variables are declared using <code>let</code> or <code>const</code>.</li>
+                <li>Functions are defined using the <code>function</code> keyword.</li>
+                <li>Comments are written with <code>//</code> for single-line comments and <code>/* ... */</code> for multi-line comments.</li>
+            </ul>
+        </section>
+
+        <section id="functions">
+            <h2>Functions</h2>
+            <p>Functions in TechScript are blocks of code designed to perform a particular task. Here's the basic syntax:</p>
+            <pre><code>
+function greet(name) {
+    return "Hello, " + name + "!";
+}
+            </code></pre>
+            <p>You can also use arrow functions for a more concise syntax:</p>
+            <pre><code>
+const greet = (name) => "Hello, " + name + "!";
+            </code></pre>
+        </section>
+
+        <section id="examples">
+            <h2>Examples</h2>
+            <p>Here are some examples to get you started with TechScript:</p>
+            <pre><code>
+// Basic Hello World
+console.log("Hello, World!");
+
+// Simple function
+function add(a, b) {
+    return a + b;
+}
+console.log(add(5, 3)); // Outputs: 8
+            </code></pre>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 TechScript Documentation. All rights reserved.</p>
+    </footer>
 </body>
 </html>
