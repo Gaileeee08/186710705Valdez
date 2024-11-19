@@ -39,6 +39,16 @@ body {
     -webkit-text-fill-color: transparent;  
 }
 
+.memorial-image {
+    max-width: 150px; 
+    height: auto;     /* Maintain the aspect ratio */
+    margin: 0 auto 20px; /* Center the image and add spacing below it */
+    display: block;   /* Makes the image respect the `margin: auto` */
+    border-radius: 50%; /* Makes the image circular */
+    border: 2px solid #ddd; /* Adds a soft border for a polished look */
+}
+
+
 .content {
     margin-top: 20px;
 }
